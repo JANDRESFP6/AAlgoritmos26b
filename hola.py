@@ -4,7 +4,7 @@ def saludar():
     nombre=entrada.get().strip()
     if not nombre:
         nombre="Jose Andres Flores Parra"
-    lbl.config(text=f"Hola, {nombre}")
+    lbl.config(text=f"Hola,{nombre}")
 
 root = tk.Tk()
 root.title("Saludador de compas")
